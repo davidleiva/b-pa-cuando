@@ -29,37 +29,37 @@ const Navbar = ({ siteTitle }) => {
           <span>Síguenos en redes sociales</span>
           <ul class="list-group list-group-horizontal list-group-flush ">
             <li class="list-group-item" style={{border: 'none' }}>
-              <a href="#">
+              <a target="_blank" href="https://www.instagram.com/bellavistapacuando/">
                 <StaticImage
                   src="../images/instagram.png"
                   width={48}
                   quality={100}
                   formats={["AUTO", "WEBP"]}
-                  alt="A Gatsby astronaut"
+                  alt="Instagram Bellavista pa'cuando"
                   className="img-fluid"
                 />
               </a>
             </li>
             <li class="list-group-item" style={{border: 'none' }}>
-              <a href="#">
+              <a target="_blank" href="https://www.facebook.com/profile.php?id=100086093963788">
                 <StaticImage
                   src="../images/facebook.png"
                   width={48}
                   quality={100}
                   formats={["AUTO", "WEBP"]}
-                  alt="A Gatsby astronaut"
+                  alt="Facebook Bellavista pa'cuando"
                   className="img-fluid"
                 />
               </a>
             </li>
             <li class="list-group-item" style={{border: 'none' }}>
-              <a href="#">
+              <a  target="_blank" href="https://twitter.com/Bellav_PaCuando">
                 <StaticImage
                   src="../images/twitter.png"
                   width={48}
                   quality={100}
                   formats={["AUTO", "WEBP"]}
-                  alt="A Gatsby astronaut"
+                  alt="Twitter Bellavista pa'cuando"
                   className="img-fluid"
                 />
               </a>
