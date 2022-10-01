@@ -13,9 +13,9 @@ const ExactNavLink = props => (
 
 const Navbar = ({ siteTitle }) => {
   return (
-    <nav class="navbar py-4">
+    <nav class="navbar py-4 text-primary ">
       <div class="container">
-        <a class="navbar-brand">
+        <a class="navbar-brand logo-container">
           <StaticImage
             src="../images/bellavista-pa-cuando.svg"
             width={172}
@@ -25,10 +25,10 @@ const Navbar = ({ siteTitle }) => {
             className="img-fluid"
           />
         </a>
-        <div class="d-flex align-items-center">
+        <div class="d-flex align-items-center bg-primary text-white p-2 rounded social-container">
           <span>Síguenos en redes sociales</span>
           <ul class="list-group list-group-horizontal list-group-flush ">
-            <li class="list-group-item" style={{border: 'none' }}>
+            <li class="list-group-item bg-transparent" style={{border: 'none' }}>
               <a target="_blank" href="https://www.instagram.com/bellavistapacuando/">
                 <StaticImage
                   src="../images/instagram.png"
@@ -40,7 +40,7 @@ const Navbar = ({ siteTitle }) => {
                 />
               </a>
             </li>
-            <li class="list-group-item" style={{border: 'none' }}>
+            <li class="list-group-item bg-transparent" style={{border: 'none' }}>
               <a target="_blank" href="https://www.facebook.com/profile.php?id=100086093963788">
                 <StaticImage
                   src="../images/facebook.png"
@@ -52,7 +52,7 @@ const Navbar = ({ siteTitle }) => {
                 />
               </a>
             </li>
-            <li class="list-group-item" style={{border: 'none' }}>
+            <li class="list-group-item bg-transparent" style={{border: 'none' }}>
               <a  target="_blank" href="https://twitter.com/Bellav_PaCuando">
                 <StaticImage
                   src="../images/twitter.png"

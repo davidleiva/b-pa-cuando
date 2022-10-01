@@ -1,6 +1,120 @@
 //Here you can customize bootstrap
-$primary: #663399;
+$primary: #6F266E;
+$secondary: #ED6D23;
+
+@font-face {
+    font-family: 'founders_grotesk_textregular';
+    src: url('../fonts/foundersgrotesktext-regular-webfont.woff2') format('woff2'),
+         url('../fonts/foundersgrotesktext-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'founders_groteskregular';
+    src: url('../fonts/founders_grotesk_-_regular-webfont.woff2') format('woff2'),
+         url('../fonts/founders_grotesk_-_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'founders_grotesksemibold';
+    src: url('../fonts/foundersgrotesk-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/foundersgrotesk-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'founders_groteskbold';
+    src: url('../fonts/founders_grotesk_-_bold-webfont.woff2') format('woff2'),
+         url('../fonts/founders_grotesk_-_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fsemi {
+    font-family: 'founders_grotesksemibold';
+}
+
+.ftext {
+    font-family: 'founders_grotesk_textregular';
+}
+
+
 @import "~bootstrap/scss/bootstrap";
 
+:root {
+    --bs-font-sans-serif: 'founders_grotesk_textregular', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'founders_grotesksemibold', 'founders_groteskbold', 'founders_grotesk_textregular', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+
+ol.custom {
+    list-style: none;
+    counter-reset: item;
+    padding-left: 0;
+
+    li {
+        counter-increment: item;
+        margin-bottom: 5px;
+
+        h5 {
+            display: inline-block;
+            font-size: 2rem;
+            font-family: 'founders_groteskregular';
+            max-width: calc(100% - 3.25rem);
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    li:before {
+        margin-right: 8px;
+        content: counter(item);
+        background: $secondary;
+        border-radius: 100%;
+        color: white;
+        width: 2.5rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        text-align: center;
+        display: inline-block;
+        @extend .fsemi;
+        font-size: 2rem;
+        vertical-align: top;
+    }
+}
 
 
+.card-text {
+    text-align: center;
+}
+
+a {
+    color: $secondary;
+}
+
+
+.logo-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+    @include media-breakpoint-up(md) {
+        width: auto;
+        text-align: left;
+        margin-bottom: 0;
+    }
+}
+
+.social-container {
+    width: 100%;
+    justify-content: center;
+    
+    @include media-breakpoint-up(md) {
+        width: auto;
+    }
+}
