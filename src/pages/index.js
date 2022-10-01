@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Bellavista pa' cuando" />
     <section className="container text-primary">
       <div className="row">
 
