@@ -47,6 +47,8 @@ $secondary: #ED6D23;
 
 :root {
     --bs-font-sans-serif: 'founders_grotesk_textregular', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-size: 1.25rem;
+    --bs-line-height: 1.65;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -117,4 +119,8 @@ a {
     @include media-breakpoint-up(md) {
         width: auto;
     }
+}
+
+p {
+    color: #333;
 }
