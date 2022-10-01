@@ -46,7 +46,7 @@ const IndexPage = () => (
             <div className="card-body">
               <h6 className="ftext text-primary">¡Sé uno más del movimiento!</h6>
               <h5 className="card-title h2 mb-4">¡Compra la camiseta y corre la voz!</h5>
-              <p className="card-text mb-4">
+              <div className="card-text mb-4">
                 <StaticImage
                   src="../images/camiseta.png"
                   width={300}
@@ -55,7 +55,7 @@ const IndexPage = () => (
                   alt="A Gatsby astronaut"
                   className="img-fluid"
                 />
-              </p>
+              </div>
               <div className="d-flex">
                 <h6 className="h3 fsemi pe-2 w-50" style={{ fontSize: '2.5rem' }}>¡Sólo 9€!</h6>
                 <p className="w-50">Cobramos sólo <br />gastos de producción</p>
