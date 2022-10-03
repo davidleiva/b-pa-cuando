@@ -5378,6 +5378,15 @@
     "lodash" "^4.17.21"
     "webpack-assets-manifest" "^5.0.6"
 
+"gatsby-plugin-google-analytics@^4.24.0":
+  "integrity" "sha512-opSdLiJ7xAObfl2j9QsNtXiGEKGVb0MLbEqFUs694vAj8T15/wL1/bFcwzX2nZnZoP2YhvVfblYd+AbJ2AVVCQ=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-4.24.0.tgz"
+  "version" "4.24.0"
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "minimatch" "3.0.4"
+    "web-vitals" "^1.1.2"
+
 "gatsby-plugin-image@^2.4.0":
   "integrity" "sha512-PKhbefaamdahm1ysKO1d54vnzmIsjR+/qtyFnZumGu8E7O9lN5is0RlXgpNCvsckL+XzcqyMljytt/bYf8L5WA=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-image/-/gatsby-plugin-image-2.4.0.tgz"
@@ -9073,7 +9082,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@^16.9.0 || ^17.0.0", "react-dom@^17.0.2", "react-dom@15.x || 16.x || 17.x":
+"react-dom@^16.9.0 || ^17.0.0", "react-dom@^16.9.0 || ^17.0.0 || ^18.0.0 || ^0.0.0", "react-dom@^17.0.2", "react-dom@15.x || 16.x || 17.x":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -9122,7 +9131,7 @@
   "resolved" "https://registry.npmjs.org/react-side-effect/-/react-side-effect-2.1.1.tgz"
   "version" "2.1.1"
 
-"react@^16.3.0 || ^17.0.0", "react@^16.9.0 || ^17.0.0", "react@^17.0.1", "react@>=16.3.0", "react@15.x || 16.x || 17.x", "react@17.0.2":
+"react@^16.3.0 || ^17.0.0", "react@^16.9.0 || ^17.0.0", "react@^16.9.0 || ^17.0.0 || ^18.0.0 || ^0.0.0", "react@^17.0.1", "react@>=16.3.0", "react@15.x || 16.x || 17.x", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -10772,7 +10781,12 @@
   dependencies:
     "prelude-ls" "^1.2.1"
 
-"type-fest@^0.13.1", "type-fest@^0.20.2":
+"type-fest@^0.13.1":
+  "integrity" "sha512-34R7HTnG0XIJcBSn5XhDd7nNFPRcXYRZrBB2O2jdKqYODldSzBAqzsWoZYYvduky73toYS/ESqxPvkDf/F0XMg=="
+  "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-0.13.1.tgz"
+  "version" "0.13.1"
+
+"type-fest@^0.20.2":
   "integrity" "sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ=="
   "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz"
   "version" "0.20.2"
@@ -11171,6 +11185,11 @@
   "integrity" "sha512-O5ag1F0Xk6ui+Fg5LlosTcVAyHs6DeyiDDbOapNtFCx/KjZ82B3U9stM9hvzbVclKWn9ABPjaINX/nQkGkJkKg=="
   "resolved" "https://registry.npmjs.org/weak-lru-cache/-/weak-lru-cache-1.2.1.tgz"
   "version" "1.2.1"
+
+"web-vitals@^1.1.2":
+  "integrity" "sha512-PFMKIY+bRSXlMxVAQ+m2aw9c/ioUYfDgrYot0YUa+/xa0sakubWhSDyxAKwzymvXVdF4CZI71g06W+mqhzu6ig=="
+  "resolved" "https://registry.npmjs.org/web-vitals/-/web-vitals-1.1.2.tgz"
+  "version" "1.1.2"
 
 "webidl-conversions@^3.0.0":
   "integrity" "sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE= sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ=="
