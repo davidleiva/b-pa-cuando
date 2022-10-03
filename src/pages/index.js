@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 
+
 const IndexPage = () => (
   <Layout>
     <Seo title="Bellavista pa' cuando" />
@@ -17,8 +18,30 @@ const IndexPage = () => (
           <h2 className="display-5 mb-5 d-none d-md-block d-xl-none" style={{ fontSize: '40px' }}>¡Únete al movimiento "#BellavistaPaCuando"!</h2>
           <h2 className="display-3 mb-5 d-none d-xl-block">¡Únete al movimiento "#BellavistaPaCuando"!</h2>
 
-          <div className="video-container mb-4 ratio ratio-16x9"><iframe width="560" height="315" src="https://www.youtube.com/embed/RF87jAE0JmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    
+          <div className="video-container mb-4 ratio ratio-16x9">
+            <a href="https://youtu.be/RF87jAE0JmE" target="_blank" className="thbcontainer">
+              <StaticImage
+                src="../images/portada.png"
+                width={'100%'}
+                height={'100%'}
+                quality={100}
+                formats={["AUTO", "WEBP"]}
+                alt="A Gatsby astronaut"
+                className="img-fluid"
+              />
+            </a>
+
+            {/* <iframe 
+              width="560" 
+              height="315" 
+              src="https://www.youtube.com/embed/RF87jAE0JmE" 
+              title="Bellavista pa cuando" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen
+            ></iframe> */}
+          </div>
+
           <ol className="custom">
 
             <li className="mb-4">
